@@ -7,8 +7,9 @@
 
 [web]
   port = 8910
-  apiProxyPath = "/.netlify/functions"
+  apiProxyPath = "https://7pvg477g1b.execute-api.us-east-1.amazonaws.com/.netlify/functions/"
 [api]
   port = 8911
+  schemaPath = "./api/db/schema.prisma"
 [browser]
   open = true
